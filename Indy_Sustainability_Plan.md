@@ -32,6 +32,49 @@ Rather than trying to force relationships in high-defense situations, focus on a
 
 ---
 
+## 📍 **AA MEETINGS - INDIANAPOLIS**
+
+### **Target Meetings (To Explore):**
+
+**Fishers Dew Drop Inn Too Group**
+- **When:** Wednesdays, 8:00 PM
+- **Where:** Geist Christian Church, 12756 Promise Rd, Fishers, IN
+- **Status:** First meeting to target when arriving in Indianapolis
+- **Notes:** Looks like a good one
+
+**Dry Eagles Group (Zionsville)**
+- **When:** Saturdays, 9:00 AM
+- **Where:** Zionsville Christian Church, 120 N 9th St, Zionsville, IN
+- **Status:** Good morning option
+- **Notes:** Saturday morning meeting - good for weekend routine
+
+**We Are Not Saints North (Carmel)**
+- **When:** Mondays, 7:00 AM
+- **Where:** Our Lady of Mount Carmel Church, 14598 Oak Ridge Rd, Carmel, IN
+- **Status:** Good morning option
+- **Notes:** Early Monday morning - good start to the week
+
+**Under New Management (Carmel)**
+- **When:** Fridays, 7:00 AM
+- **Where:** St. Elizabeth Ann Seton Catholic Church, 10655 Haverstick Rd, Carmel, IN
+- **Status:** Friday morning option
+- **Notes:** Early Friday morning - good end-of-week option
+
+### **Meeting Strategy:**
+- Start with target meetings (like Fishers Dew Drop Inn Too)
+- **Target: 3 meetings per week** (this is the right balance - feels like strong consistency)
+- **Note:** 5 meetings per week feels like punishment, triggers defensiveness and resentment
+- Let relationships form naturally
+- No pressure to "make friends" - just show up, participate
+- As defenses lower, more meetings become accessible
+
+### **Resources:**
+- AA.org meeting finder for Indianapolis area
+- Multiple meetings daily throughout metro area
+- Strong recovery community in Indianapolis
+
+---
+
 ## 📅 **MONTHS 1-3: STABILIZE**
 
 ### **Mental Health Rebuilding:**
@@ -43,7 +86,7 @@ Rather than trying to force relationships in high-defense situations, focus on a
 - **Focus: Recovery, breathing, being human again**
 
 ### **Community Building (Low-Pressure Entry Points):**
-- **AA meetings** - Attend 3-5 meetings per week, let relationships form naturally
+- **AA meetings** - Attend 3 meetings per week (target frequency - strong consistency without feeling like punishment)
 - **Research Maker community** - Find Indianapolis maker spaces, carbon fiber groups, machining communities
 - **Research Linotype/printing history** - Find that Midwest museum of Linotype machines, connect with printing history community
 - **No pressure to "make friends"** - Just show up, participate in activities, let connections happen organically
