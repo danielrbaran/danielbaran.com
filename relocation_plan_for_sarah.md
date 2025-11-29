@@ -31,6 +31,46 @@
 
 ---
 
+## 💰 **FINANCIAL BREAKDOWN**
+
+### **Year 1 Costs (Covered by Sarah):**
+
+**One-Time:**
+- **Cozy Suites Extended Stay (6160 N Rural St, Indianapolis):** ~$2,500/month
+  - **Location:** 2 miles from both Riverbend and Trails at Lakeside apartments (perfect for research)
+  - **Amenities:** Full kitchen (saves money, more comfortable)
+- Year's rent upfront: $10,740-11,940
+- Security deposit: ~$1,000
+- Moving costs (gas + 3 nights motels): ~$500-700
+- Basic essentials: ~$1,000
+- **Car maintenance (required before move):**
+  - New tires: ~$400-500
+  - Brake pads (both axles, worst case): ~$800
+  - Squeaking noise diagnosis/repair: TBD (getting estimate today)
+  - **Car maintenance total: ~$1,200-1,300 + TBD squeaking repair**
+- **Total One-Time: ~$16,940-18,140 + TBD car repair**
+
+**Monthly (Daniel's Responsibility):**
+- Utilities: ~$150
+- Food: ~$400
+- Phone: ~$50
+- Internet: ~$60
+- Car insurance: ~$45
+- Miscellaneous: ~$200
+- **Debt payments: TBD** (see Debt Situation section below)
+- **Repayment to Sarah: TBD** (unknown when this can start)
+- **Total Monthly: ~$905 + debt payments (TBD) + repayment to Sarah (TBD)**
+
+### **Year 1 Income (Daniel's Sources):**
+- Uber (strategic, not grinding): $600-800/month
+- HyperJournal/VentureJournal: Starting to generate (small)
+- Part-time work (Tesla interview Dec 5, or similar): $500-1,000/month potential
+- **Total Monthly: ~$1,100-1,800**
+
+**Math:** Daniel needs $905/month. With Uber + potential part-time work, he can cover it. Sarah's bridge support covers any shortfalls.
+
+---
+
 ## 🚚 **PHASE 1: PRE-DEPARTURE (Now - December 14, 2025)**
 
 ### **Status: Notice Given to SLE (COMPLETED)**
@@ -193,50 +233,6 @@
 ### **What's Needed:**
 - Basic furniture/essentials (bed, basic kitchen stuff, etc.) - after move-in
 - Can be minimal - Daniel travels light
-
----
-
-## 💰 **FINANCIAL BREAKDOWN**
-
-### **Year 1 Costs (Covered by Sarah):**
-
-**One-Time:**
-- **Cozy Suites Extended Stay (6160 N Rural St, Indianapolis):** ~$2,500/month
-  - Allows Daniel to get out of toxic environment immediately (Dec 14)
-  - Calm down and make better decisions
-  - Do in-person apartment research
-  - Not rush into signing lease
-  - **Location:** 2 miles from both Riverbend and Trails at Lakeside apartments (perfect for research)
-  - **Amenities:** Full kitchen (saves money, more comfortable)
-- Year's rent upfront: $10,740-11,940
-- Security deposit: ~$1,000
-- Moving costs (gas + 3 nights motels): ~$500-700
-- Basic essentials: ~$1,000
-- **Car maintenance (required before move):**
-  - New tires: ~$400-500
-  - Brake pads (both axles, worst case): ~$800
-  - Squeaking noise diagnosis/repair: TBD (getting estimate today)
-  - **Car maintenance total: ~$1,200-1,300 + TBD squeaking repair**
-- **Total One-Time: ~$16,940-18,140 + TBD car repair**
-
-**Monthly (Daniel's Responsibility):**
-- Utilities: ~$150
-- Food: ~$400
-- Phone: ~$50
-- Internet: ~$60
-- Car insurance: ~$45
-- Miscellaneous: ~$200
-- **Debt payments: TBD** (see Debt Situation section below)
-- **Repayment to Sarah: TBD** (unknown when this can start)
-- **Total Monthly: ~$905 + debt payments (TBD) + repayment to Sarah (TBD)**
-
-### **Year 1 Income (Daniel's Sources):**
-- Uber (strategic, not grinding): $600-800/month
-- HyperJournal/VentureJournal: Starting to generate (small)
-- Part-time work (Tesla interview Dec 5, or similar): $500-1,000/month potential
-- **Total Monthly: ~$1,100-1,800**
-
-**Math:** Daniel needs $905/month. With Uber + potential part-time work, he can cover it. Sarah's bridge support covers any shortfalls.
 
 ---
 
