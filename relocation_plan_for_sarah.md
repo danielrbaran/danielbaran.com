@@ -31,6 +31,27 @@
 
 ---
 
+## 🚗 **IMMEDIATE DEPARTURE COSTS (Get in Car and Go)**
+
+**Note:** Daniel may need to leave earlier than Dec 14 if the environment becomes unbearable. This is the minimum needed to do what needs to be done, get in the car and go.
+
+| Item | Cost |
+|------|------|
+| Tires and brakes for car | $1,300 |
+| Gas for drive (2,383 miles) | $250-300 |
+| 3 nights in motels | $400 |
+| Prescriptions (metoprolol, rosuvastatin) | $45 |
+| Food & caffeine along the way | $200 |
+| **TOTAL** | **$2,195-2,295** |
+
+**This gets Daniel:**
+- Safe car for the drive
+- To Indianapolis
+- Into Cozy Suites (once there)
+- Then can do apartment research from stable position
+
+---
+
 ## 💰 **FINANCIAL BREAKDOWN**
 
 ### **Year 1 Costs (Covered by Sarah):**
