@@ -24,16 +24,16 @@
 
 ## 📅 **TIMELINE OVERVIEW**
 
-**Pre-Departure (Now - Dec 14):** Logistics, car maintenance, wrapping up commitments  
-**Drive (Dec 14-17):** 4-day drive via southern route (2,383 miles)  
-**Extended Stay (Dec 17 - Early Jan):** Cozy Suites, in-person apartment research  
-**Apartment (Early Jan):** Sign lease, move into chosen apartment  
+**Pre-Departure (Now - Dec 6):** Logistics, car maintenance, wrapping up commitments  
+**Drive (Dec 6-9):** 4-day drive via southern route (2,383 miles)  
+**Extended Stay (Dec 9 - Early Jan):** Cozy Suites, in-person apartment research  
+**Apartment (Jan 1 target):** Sign lease, move into chosen apartment (property managers prefer 1st of month)  
 
 ---
 
 ## 🚗 **IMMEDIATE DEPARTURE COSTS (Get in Car and Go)**
 
-**Note:** Daniel may need to leave earlier than Dec 14 if the environment becomes unbearable. This is the minimum needed to do what needs to be done, get in the car and go.
+**Note:** This is the minimum needed to do what needs to be done, get in the car and go. **Current target departure: Saturday, December 6, 2025** (moved up from Dec 14 to allow more time for apartment research before Jan 1 move-in target).
 
 | Item | Cost |
 |------|------|
@@ -92,7 +92,7 @@
 
 ---
 
-## 🚚 **PHASE 1: PRE-DEPARTURE (Now - December 14, 2025)**
+## 🚚 **PHASE 1: PRE-DEPARTURE (Now - December 6, 2025)**
 
 ### **Status: Notice Given to SLE (COMPLETED)**
 
@@ -100,15 +100,15 @@
 
 **Outcome:**
 - Lindsey was super supportive
-- Settled on **December 14, 2025** as departure date
+- Originally settled on **December 14, 2025** as departure date
+- **UPDATED: Moving departure to Saturday, December 6, 2025** (better timing for Jan 1 apartment move-in target)
 - Maintains relationship, doesn't burn bridges
-- Daniel can handle a couple more weeks of chaos knowing he'll be gone soon
 
 **Note:** This is the right thing to do and maintains important relationships in recovery community.
 
 ---
 
-### **Tasks Before Dec 14 Departure:**
+### **Tasks Before Dec 6 Departure:**
 
 1. **Car Maintenance (Critical - Must Complete Before Drive)**
    - **Toscalito Tire** (668 Irwin St, San Rafael) - Daniel's preferred shop
@@ -133,7 +133,7 @@
 
 ---
 
-## 🚗 **PHASE 2: DRIVE (December 14-17, 2025)**
+## 🚗 **PHASE 2: DRIVE (December 6-9, 2025)**
 
 ### **Route:** Southern Route (I-40/I-44) - 2,383 miles, 4 days
 
@@ -145,20 +145,20 @@
 
 ### **Driving Schedule:**
 
-**Day 1 (Dec 14):** Marin County → Kingman, AZ
+**Day 1 (Dec 6 - Saturday):** Marin County → Kingman, AZ
 - First day push, major I-40 stop
 - ~600-700 miles
 
-**Day 2 (Dec 15):** Kingman, AZ → Somewhere between Albuquerque, NM and Amarillo, TX
+**Day 2 (Dec 7 - Sunday):** Kingman, AZ → Somewhere between Albuquerque, NM and Amarillo, TX
 - Flexible stop - plenty of motels along I-40
 - Decide based on how you feel
 - ~600-700 miles
 
-**Day 3 (Dec 16):** Albuquerque/Amarillo area → Joplin, MO
+**Day 3 (Dec 8 - Monday):** Albuquerque/Amarillo area → Joplin, MO
 - Solid middle stop, gets into Midwest
 - ~600-700 miles
 
-**Day 4 (Dec 17):** Joplin, MO → Indianapolis, IN
+**Day 4 (Dec 9 - Tuesday):** Joplin, MO → Indianapolis, IN
 - Final push, arrive at Cozy Suites
 - ~400-500 miles
 
@@ -172,16 +172,17 @@
 
 ---
 
-## 🏨 **PHASE 3: EXTENDED STAY (December 17 - Early January 2026)**
+## 🏨 **PHASE 3: EXTENDED STAY (December 9 - Early January 2026)**
 
 ### **Cozy Suites Extended Stay (6160 N Rural St, Indianapolis)**
 
 **Sarah's Brilliant Solution:**
-- Allows Daniel to get out of toxic environment immediately (Dec 14)
+- Allows Daniel to get out of toxic environment immediately (Dec 6)
 - Calm down and make better decisions
 - Do actual in-person research on apartments
 - Not rush into signing a lease
 - Make informed choices from position of stability
+- **More time before Jan 1** - gives better chance of finding place for preferred move-in date
 
 **Location Benefits:**
 - 2 miles from both Riverbend and Trails at Lakeside apartments (perfect for research)
@@ -213,14 +214,15 @@
 
 ---
 
-## 🏠 **PHASE 4: APARTMENT (Early January 2026)**
+## 🏠 **PHASE 4: APARTMENT (January 1, 2026 Target)**
 
 ### **Lease Signing & Move-In**
 
-**After In-Person Research:**
+**After In-Person Research (Dec 9 - Dec 31):**
 - Daniel has visited properties, met managers, assessed neighborhoods
 - Made informed decision (not rushed)
 - Chosen the right apartment
+- **Target: Move-in on January 1, 2026** (property managers prefer 1st of month)
 
 **Lease Signing Process:**
 - Contact chosen property manager
@@ -233,7 +235,7 @@
 - Sarah transfers funds for year's rent + deposit
 - Sign lease, get keys
 
-**Move-In:**
+**Move-In (Jan 1, 2026):**
 - Move from Cozy Suites to chosen apartment
 - Set up basic essentials (bed, basic kitchen stuff, minimal but functional)
 - Get settled in safe, quiet, peaceful environment
@@ -448,7 +450,7 @@ Daniel feels significant shame about this debt. He spent money on credit cards b
 ## ✅ **WHY THIS WORKS**
 
 ### **For Daniel:**
-- ✅ Gets out of toxic environment Dec 14 (immediate relief!)
+- ✅ Gets out of toxic environment Dec 6 (immediate relief!)
 - ✅ Airbnb/extended stay gives breathing room to make good decisions
 - ✅ Can do in-person apartment research (not rushed, sight-unseen)
 - ✅ Safe, quiet, peaceful place to recover (once apartment chosen)
@@ -469,11 +471,11 @@ Daniel feels significant shame about this debt. He spent money on credit cards b
 
 ## 📋 **ACTION ITEMS FOR SARAH**
 
-### **Immediate (Before Dec 14 Departure):**
+### **Immediate (Before Dec 6 Departure):**
 1. **Book Cozy Suites Extended Stay** (6160 N Rural St, Indianapolis, ~$2,500/month)
    - 2 miles from both Riverbend and Trails at Lakeside apartments (perfect for research)
    - Full kitchen (saves money, more comfortable)
-   - Allows Daniel to get out of toxic environment Dec 14
+   - Allows Daniel to get out of toxic environment Dec 6
    - Calm down, make better decisions
    - Do in-person apartment research
 
@@ -483,7 +485,7 @@ Daniel feels significant shame about this debt. He spent money on credit cards b
 
 3. **Review and approve plan** (you're doing this now!)
 
-### **After Daniel Arrives in Indianapolis (Dec 17-18):**
+### **After Daniel Arrives in Indianapolis (Dec 9-10):**
 1. **Support in-person apartment research** (if needed)
    - Daniel will visit properties, meet managers
    - Make informed decisions (not rushed)
@@ -506,8 +508,8 @@ Daniel feels significant shame about this debt. He spent money on credit cards b
 ## 🎯 **SUCCESS METRICS**
 
 **This plan is successful if:**
-- ✅ Daniel departs SLE on Dec 14 (proper notice given, relationship maintained)
-- ✅ Arrives in Indianapolis Dec 17-18 (Airbnb/extended stay booked)
+- ✅ Daniel departs SLE on Dec 6 (proper notice given, relationship maintained)
+- ✅ Arrives in Indianapolis Dec 9-10 (Cozy Suites booked)
 - ✅ Calms down, makes informed apartment decisions (in-person research)
 - ✅ Signs lease on right apartment (not rushed, well-researched)
 - ✅ Moves into safe, affordable, quiet place (early January)
@@ -542,34 +544,34 @@ Daniel feels significant shame about this debt. He spent money on credit cards b
 
 ## 📞 **NEXT STEPS (UPDATED PLAN)**
 
-1. **Now - Dec 14:** 
+1. **Now - Dec 6:** 
    - Organize as much as possible
-   - Car maintenance (tires, brakes, squeaking repair)
-   - Prepare for move
-   - Sarah books Airbnb/extended stay hotel in Indianapolis
+   - Car maintenance (tires, brakes, squeaking repair) - IN PROGRESS at Toscalito Tire
+   - Wrap up commitments (AA secretary role, etc.)
+   - Sarah books Cozy Suites Extended Stay in Indianapolis
 
-2. **Dec 14:** 
+2. **Dec 6 (Saturday):** 
    - Depart SLE (proper notice given, relationship maintained with Lindsey)
-   - Drive to Indianapolis (2-3 days)
+   - Drive to Indianapolis (4 days)
 
-3. **Dec 17-18:** 
+3. **Dec 9-10 (Tuesday):** 
    - Arrive in Indianapolis
    - Check into Cozy Suites (6160 N Rural St)
    - Calm down, breathe, stabilize
 
-4. **Dec 18 - Early January:**
+4. **Dec 9 - Dec 31:**
    - **In-person apartment research** (Riverbend, Trails at Lakeside, others)
    - Visit properties, meet property managers
    - Make informed decisions (not rushed)
-   - Sign lease when ready
+   - Sign lease for Jan 1 move-in (property managers prefer 1st of month)
 
-5. **Early January:**
+5. **January 1, 2026:**
    - Move into chosen apartment
    - Settled, stable, rebuilding
 
 ---
 
-**This is happening. Daniel gets out of toxic environment Dec 14, has breathing room to make good decisions, then finds the right apartment. This is SO much better than rushing into a lease sight-unseen.** 🛣️💚
+**This is happening. Daniel gets out of toxic environment Dec 6, has breathing room to make good decisions, then finds the right apartment for Jan 1 move-in. This is SO much better than rushing into a lease sight-unseen.** 🛣️💚
 
 ---
 
