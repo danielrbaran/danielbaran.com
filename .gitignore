@@ -1,0 +1,9 @@
+# Personal documents - not part of website
+*.docx
+*.txt
+*.md
+!README.md
+!investor-report/README.md
+
+# Keep only website files
+# We'll explicitly add: index.html, styles.css, investor-report/
