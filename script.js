@@ -30,22 +30,43 @@
         const scrollY = window.pageYOffset || document.documentElement.scrollTop;
         const scrollProgress = Math.min(scrollY / maxScroll, 1); // 0 to 1
         
-        // Calculate new height
-        const newHeight = initialHeight - (scrollProgress * (initialHeight - finalHeight));
+        // Calculate new height (clamp to finalHeight minimum)
+        const newHeight = Math.max(
+            initialHeight - (scrollProgress * (initialHeight - finalHeight)),
+            finalHeight
+        );
         heroHeader.style.height = newHeight + 'px';
         
+        // Make header sticky once fully shrunk
+        if (scrollProgress >= 1) {
+            heroHeader.style.position = 'sticky';
+            heroHeader.style.top = '0';
+            heroHeader.style.zIndex = '100';
+        } else {
+            heroHeader.style.position = 'relative';
+        }
+        
         // Calculate text position and size
-        // Move from center to top-left
-        const translateX = scrollProgress * -200; // Move left
-        const translateY = scrollProgress * -150; // Move up
-        const scale = 1 - (scrollProgress * 0.4); // Shrink text slightly
+        // Move from center to top-left, but keep it within bounds
+        const translateX = scrollProgress * -150; // Move left (reduced from -200)
+        const translateY = scrollProgress * -100; // Move up (reduced from -150)
+        const scale = 1 - (scrollProgress * 0.3); // Shrink text slightly (reduced from 0.4)
         
         heroContent.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
         heroContent.style.textAlign = scrollProgress > 0.5 ? 'left' : 'center';
         
         // Adjust padding as it shrinks
-        const padding = 2 - (scrollProgress * 1.5);
+        const padding = Math.max(2 - (scrollProgress * 1.5), 0.5);
         heroContent.style.padding = padding + 'rem';
+        
+        // Adjust font sizes for final state
+        if (scrollProgress >= 1) {
+            heroContent.querySelector('h1').style.fontSize = '1.5rem';
+            heroContent.querySelector('.subtitle').style.fontSize = '0.9rem';
+        } else {
+            heroContent.querySelector('h1').style.fontSize = '';
+            heroContent.querySelector('.subtitle').style.fontSize = '';
+        }
         
         ticking = false;
     }

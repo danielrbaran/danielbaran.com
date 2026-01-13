@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 3rem;
-    will-change: height;
+    will-change: height, position;
 }
 
 .hero-overlay {
@@ -54,6 +54,15 @@ body {
     margin: 0 auto;
     will-change: transform;
     transform-origin: center center;
+    width: 100%;
+}
+
+.hero-content h1 {
+    transition: font-size 0.2s ease-out;
+}
+
+.hero-content .subtitle {
+    transition: font-size 0.2s ease-out;
 }
 
 h1 {
