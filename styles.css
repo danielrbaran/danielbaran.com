@@ -20,11 +20,37 @@ body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
 
-header {
-    text-align: center;
+.hero-header {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('investor_report_home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid #333;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 10, 0.85);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -126,6 +152,14 @@ footer {
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
+    }
+
+    .hero-header {
+        min-height: 300px;
+    }
+
+    .hero-content {
+        padding: 1.5rem;
     }
 
     h1 {
