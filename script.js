@@ -20,8 +20,9 @@
     
     const initialHeight = 400; // Starting height
     const finalHeight = 100; // Final header height
-    const scrollThreshold = 300; // Pixels to scroll before full shrink
+    const scrollThreshold = 250; // Pixels to scroll before full shrink (reduced for faster completion)
     const maxScroll = scrollThreshold;
+    const stickyThreshold = 0.85; // Start making sticky at 85% progress
     
     // Throttle function for performance
     let ticking = false;
@@ -37,8 +38,8 @@
         );
         heroHeader.style.height = newHeight + 'px';
         
-        // Make header sticky once fully shrunk
-        if (scrollProgress >= 1) {
+        // Make header sticky earlier so it doesn't scroll away
+        if (scrollProgress >= stickyThreshold) {
             heroHeader.style.position = 'sticky';
             heroHeader.style.top = '0';
             heroHeader.style.zIndex = '100';
@@ -47,10 +48,10 @@
         }
         
         // Calculate text position and size
-        // Move from center to top-left, but keep it within bounds
-        const translateX = scrollProgress * -150; // Move left (reduced from -200)
-        const translateY = scrollProgress * -100; // Move up (reduced from -150)
-        const scale = 1 - (scrollProgress * 0.3); // Shrink text slightly (reduced from 0.4)
+        // Move from center to top-left, complete faster
+        const translateX = scrollProgress * -180; // Move left (increased for faster movement)
+        const translateY = scrollProgress * -120; // Move up (increased for faster movement)
+        const scale = 1 - (scrollProgress * 0.35); // Shrink text slightly
         
         heroContent.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
         heroContent.style.textAlign = scrollProgress > 0.5 ? 'left' : 'center';
@@ -59,13 +60,17 @@
         const padding = Math.max(2 - (scrollProgress * 1.5), 0.5);
         heroContent.style.padding = padding + 'rem';
         
-        // Adjust font sizes for final state
-        if (scrollProgress >= 1) {
-            heroContent.querySelector('h1').style.fontSize = '1.5rem';
-            heroContent.querySelector('.subtitle').style.fontSize = '0.9rem';
+        // Adjust font sizes for final state (start earlier)
+        if (scrollProgress >= stickyThreshold) {
+            const h1 = heroContent.querySelector('h1');
+            const subtitle = heroContent.querySelector('.subtitle');
+            if (h1) h1.style.fontSize = '1.5rem';
+            if (subtitle) subtitle.style.fontSize = '0.9rem';
         } else {
-            heroContent.querySelector('h1').style.fontSize = '';
-            heroContent.querySelector('.subtitle').style.fontSize = '';
+            const h1 = heroContent.querySelector('h1');
+            const subtitle = heroContent.querySelector('.subtitle');
+            if (h1) h1.style.fontSize = '';
+            if (subtitle) subtitle.style.fontSize = '';
         }
         
         ticking = false;
