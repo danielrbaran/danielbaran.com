@@ -59,7 +59,8 @@
         const verticalAdjustment = scrollProgress * -20; // Small upward adjustment for scale
         
         heroContent.style.transform = `translate(${translateX}px, ${verticalAdjustment}px) scale(${scale})`;
-        heroContent.style.textAlign = scrollProgress > 0.5 ? 'left' : 'center';
+        const textAlign = scrollProgress > 0.5 ? 'left' : 'center';
+        heroContent.style.textAlign = textAlign;
         
         // Adjust padding as it shrinks - maintain left padding for alignment
         const verticalPadding = Math.max(2 - (scrollProgress * 1.5), 0.5);
@@ -79,6 +80,9 @@
             if (subtitle) subtitle.style.fontSize = '';
         }
         
+        // Update debug overlay
+        updateDebugOverlay(scrollY, scrollProgress, newHeight, heroHeader.style.position, translateX, verticalAdjustment, scale, textAlign);
+        
         ticking = false;
     }
     
@@ -92,6 +96,25 @@
     // Add smooth transition
     heroHeader.style.transition = 'height 0.1s ease-out';
     heroContent.style.transition = 'transform 0.1s ease-out, text-align 0.2s ease-out, padding 0.1s ease-out';
+    
+    // Debug overlay update function
+    function updateDebugOverlay(scrollY, progress, heroHeight, heroPosition, translateX, translateY, scale, textAlign) {
+        const overlay = document.getElementById('debug-overlay');
+        if (!overlay) return;
+        
+        const contentRect = heroContent.getBoundingClientRect();
+        
+        document.getElementById('debug-scroll').textContent = Math.round(scrollY);
+        document.getElementById('debug-progress').textContent = Math.round(progress * 100);
+        document.getElementById('debug-hero-height').textContent = Math.round(heroHeight);
+        document.getElementById('debug-hero-position').textContent = heroPosition || 'relative';
+        document.getElementById('debug-content-x').textContent = Math.round(contentRect.left);
+        document.getElementById('debug-content-y').textContent = Math.round(contentRect.top);
+        document.getElementById('debug-translate-x').textContent = Math.round(translateX);
+        document.getElementById('debug-translate-y').textContent = Math.round(translateY);
+        document.getElementById('debug-scale').textContent = scale.toFixed(2);
+        document.getElementById('debug-align').textContent = textAlign;
+    }
     
     // Listen for scroll events
     window.addEventListener('scroll', onScroll, { passive: true });

@@ -163,6 +163,34 @@ footer {
     font-size: 0.9rem;
 }
 
+#debug-overlay {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: rgba(26, 26, 26, 0.95);
+    border: 1px solid #333;
+    padding: 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.75rem;
+    color: #d97706;
+    z-index: 10000;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.debug-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #333;
+    color: #e0e0e0;
+}
+
+#debug-overlay div {
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
