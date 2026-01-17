@@ -24,6 +24,10 @@
     const maxScroll = scrollThreshold;
     const stickyThreshold = 0.1; // Make sticky almost immediately so it never scrolls away
     
+    // Detect mobile (screen width < 768px)
+    const isMobile = window.innerWidth < 768;
+    const mobileSnapThreshold = 50; // On mobile, snap to left at 50px scroll
+    
     // Throttle function for performance
     let ticking = false;
     
@@ -48,17 +52,33 @@
         }
         
         // Calculate text position and size
-        // Move horizontally left only, stay vertically centered
-        // The flexbox with align-items: center handles vertical centering automatically
-        const maxLeftMovement = 300; // Distance to move left (from center to left edge)
-        const translateX = scrollProgress * -maxLeftMovement; // Move left only
+        // Mobile: snap to left early, minimal horizontal movement
+        // Desktop: smooth horizontal transition
+        let translateX = 0;
+        let textAlign = 'center';
+        
+        if (isMobile) {
+            // On mobile: snap to left at 50px scroll (about 28% progress)
+            const mobileSnapProgress = Math.min(scrollY / mobileSnapThreshold, 1);
+            if (mobileSnapProgress >= 1) {
+                textAlign = 'left';
+                translateX = 0; // No horizontal movement needed, just snap alignment
+            } else {
+                // Minimal movement during transition
+                translateX = mobileSnapProgress * -50; // Small movement before snap
+            }
+        } else {
+            // Desktop: smooth horizontal transition
+            const maxLeftMovement = 300; // Distance to move left (from center to left edge)
+            translateX = scrollProgress * -maxLeftMovement; // Move left only
+            textAlign = scrollProgress > 0.5 ? 'left' : 'center';
+        }
         
         // No vertical translation needed - flexbox handles centering
         // Scale text down to fit smaller header
         const scale = 1 - (scrollProgress * 0.35); // Shrink text slightly
         
         heroContent.style.transform = `translateX(${translateX}px) scale(${scale})`;
-        const textAlign = scrollProgress > 0.5 ? 'left' : 'center';
         heroContent.style.textAlign = textAlign;
         
         // Adjust padding as it shrinks - maintain left padding for alignment
