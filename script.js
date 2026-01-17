@@ -20,7 +20,7 @@
     
     const initialHeight = 400; // Starting height
     const finalHeight = 100; // Final header height
-    const scrollThreshold = 250; // Pixels to scroll before full shrink
+    const scrollThreshold = 180; // Pixels to scroll before full shrink (faster completion)
     const maxScroll = scrollThreshold;
     const stickyThreshold = 0.1; // Make sticky almost immediately so it never scrolls away
     
