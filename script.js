@@ -20,9 +20,9 @@
     
     const initialHeight = 400; // Starting height
     const finalHeight = 100; // Final header height
-    const scrollThreshold = 250; // Pixels to scroll before full shrink (reduced for faster completion)
+    const scrollThreshold = 250; // Pixels to scroll before full shrink
     const maxScroll = scrollThreshold;
-    const stickyThreshold = 0.85; // Start making sticky at 85% progress
+    const stickyThreshold = 0.1; // Make sticky almost immediately so it never scrolls away
     
     // Throttle function for performance
     let ticking = false;
@@ -49,16 +49,15 @@
         
         // Calculate text position and size
         // Move horizontally left only, stay vertically centered
-        // Calculate left movement: from center to left edge (accounting for padding)
-        const maxLeftMovement = 300; // Adjust based on container width and padding
+        // The flexbox with align-items: center handles vertical centering automatically
+        const maxLeftMovement = 300; // Distance to move left (from center to left edge)
         const translateX = scrollProgress * -maxLeftMovement; // Move left only
         
-        // Minimal vertical adjustment to account for header shrinking and text scaling
-        // The flexbox handles most centering, but we need slight adjustment for scale
+        // No vertical translation needed - flexbox handles centering
+        // Scale text down to fit smaller header
         const scale = 1 - (scrollProgress * 0.35); // Shrink text slightly
-        const verticalAdjustment = scrollProgress * -20; // Small upward adjustment for scale
         
-        heroContent.style.transform = `translate(${translateX}px, ${verticalAdjustment}px) scale(${scale})`;
+        heroContent.style.transform = `translateX(${translateX}px) scale(${scale})`;
         const textAlign = scrollProgress > 0.5 ? 'left' : 'center';
         heroContent.style.textAlign = textAlign;
         
@@ -81,7 +80,7 @@
         }
         
         // Update debug overlay
-        updateDebugOverlay(scrollY, scrollProgress, newHeight, heroHeader.style.position, translateX, verticalAdjustment, scale, textAlign);
+        updateDebugOverlay(scrollY, scrollProgress, newHeight, heroHeader.style.position, translateX, 0, scale, textAlign);
         
         ticking = false;
     }
