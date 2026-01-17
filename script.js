@@ -99,8 +99,8 @@
             if (subtitle) subtitle.style.fontSize = '';
         }
         
-        // Update debug overlay
-        updateDebugOverlay(scrollY, scrollProgress, newHeight, heroHeader.style.position, translateX, 0, scale, textAlign);
+        // Update debug overlay - commented out but kept for future use
+        // updateDebugOverlay(scrollY, scrollProgress, newHeight, heroHeader.style.position, translateX, 0, scale, textAlign);
         
         ticking = false;
     }
