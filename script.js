@@ -48,17 +48,23 @@
         }
         
         // Calculate text position and size
-        // Move from center to top-left, complete faster
-        const translateX = scrollProgress * -180; // Move left (increased for faster movement)
-        const translateY = scrollProgress * -120; // Move up (increased for faster movement)
-        const scale = 1 - (scrollProgress * 0.35); // Shrink text slightly
+        // Move horizontally left only, stay vertically centered
+        // Calculate left movement: from center to left edge (accounting for padding)
+        const maxLeftMovement = 300; // Adjust based on container width and padding
+        const translateX = scrollProgress * -maxLeftMovement; // Move left only
         
-        heroContent.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+        // Minimal vertical adjustment to account for header shrinking and text scaling
+        // The flexbox handles most centering, but we need slight adjustment for scale
+        const scale = 1 - (scrollProgress * 0.35); // Shrink text slightly
+        const verticalAdjustment = scrollProgress * -20; // Small upward adjustment for scale
+        
+        heroContent.style.transform = `translate(${translateX}px, ${verticalAdjustment}px) scale(${scale})`;
         heroContent.style.textAlign = scrollProgress > 0.5 ? 'left' : 'center';
         
-        // Adjust padding as it shrinks
-        const padding = Math.max(2 - (scrollProgress * 1.5), 0.5);
-        heroContent.style.padding = padding + 'rem';
+        // Adjust padding as it shrinks - maintain left padding for alignment
+        const verticalPadding = Math.max(2 - (scrollProgress * 1.5), 0.5);
+        const horizontalPadding = scrollProgress > 0.5 ? '1.5rem' : '2rem'; // Consistent left padding when left-aligned
+        heroContent.style.padding = `${verticalPadding}rem ${horizontalPadding}`;
         
         // Adjust font sizes for final state (start earlier)
         if (scrollProgress >= stickyThreshold) {

@@ -54,7 +54,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     will-change: transform;
-    transform-origin: center center;
+    transform-origin: left center; /* Change origin to left center for better left alignment */
     width: 100%;
     box-sizing: border-box;
 }
